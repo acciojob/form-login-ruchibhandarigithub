@@ -1,4 +1,5 @@
 function getFormvalue() {
-    //Write your code here
+	let Name = document.getElementsByTagName('input');
+    alert(Name[0]+" "Name[1]);
 
 }
